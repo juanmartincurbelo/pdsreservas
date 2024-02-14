@@ -1,0 +1,27 @@
+body {
+  height: 100%;
+  font-family: $font;
+  background-color: #151E3F;
+
+  margin-left: 12rem;
+  margin-right: 12rem;
+
+  @media (max-width: 1200px) {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  @media (max-width: 900px) {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  @media (max-width: 600px) {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+.css-dkd71f-MuiGrid2-root {
+  margin: 0 !important;
+}
