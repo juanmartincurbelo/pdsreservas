@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import images from "@constants/images"
+
 import './style.scss';
 
 const Home = () => {
@@ -7,7 +9,12 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>hola</h1>
+      <div className="home__top">
+        <img src={images.Logo} />
+      </div>
+      <div className="home__container">
+        hola
+      </div>
     </div>
   )
 };

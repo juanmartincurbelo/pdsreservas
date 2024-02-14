@@ -1,1 +1,16 @@
-.home {}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__top {
+    }
+
+    &__container {
+        background-color: white;
+        border-radius: 80px 80px 0 0;
+        position: absolute;
+        bottom: 0;
+    }
+}
