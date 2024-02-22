@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    &__top {
+        padding: 3rem;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: white;
+        border-radius: 5rem 5rem 0 0;
+
+        width: 20rem;
+        height: 100%;
+
+        padding: 4rem 2rem 2rem 2rem;
+        gap: 1.5rem;
+
+        &__text {
+            margin: 0;
+            color: #3263A5;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+
+        &__wpp {
+            margin: 2rem 0rem 0rem 0rem;
+            color: #3263A5;
+            font-weight: bold;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    }
+}

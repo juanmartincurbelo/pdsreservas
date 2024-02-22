@@ -7,7 +7,9 @@ import routes from '@constants/routes';
 import withSessionRedirect from '@hocs/withSessionRedirect';
 
 import NotFound from '@containers/NotFound';
+import Login from '@containers/Login';
 import Home from '@containers/Home';
+import History from '@containers/History';
 
 import './style.scss';
 
@@ -18,8 +20,16 @@ const App = () => {
       path: '*',
     },
     {
+      component: withSessionRedirect(Login),
+      path: routes.LOGIN,
+    },
+    {
       component: withSessionRedirect(Home),
       path: routes.HOME,
+    },
+    {
+      component: withSessionRedirect(History),
+      path: routes.HISTORY,
     }
   ];
 

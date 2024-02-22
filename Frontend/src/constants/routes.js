@@ -1,6 +1,7 @@
 export default {
-  HOME: '/',
-  SEARCH: '/search',
+  LOGIN: '/',
+  HOME: '/home',
+  HISTORY: '/history',
   SAVED: '/saved',
   PAYMENTS: '/payments',
 };
