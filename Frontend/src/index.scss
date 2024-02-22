@@ -1,0 +1,60 @@
+body {
+  font-family: $font;
+  background-color: #3263A5;
+
+  margin: 0;
+  height: 100vh;
+}
+
+.common-button {
+  width: 16rem !important;
+  border-radius: 2rem !important;
+  padding: 1rem !important;
+  font-size: 1rem !important;
+  background-color: #A5B5CB !important;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5) !important;
+
+  &:hover {
+    background-color: #8f9daf !important;
+  }
+}
+
+.submit-button {
+  width: 16rem !important;
+  border-radius: 2rem !important;
+  padding: 1rem !important;
+  font-size: 1rem !important;
+  background-color: #3263A5 !important;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5) !important;
+
+  &:hover {
+    background-color: #2b558b !important;
+  }
+}
+
+.logout-button {
+  margin-top: 4rem !important;
+  width: 16rem !important;
+  border-radius: 2rem !important;
+  padding: 1rem !important;
+  font-size: 1rem !important;
+  background-color: #FF7E7E !important;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5) !important;
+
+  &:hover {
+    background-color: #ff6767 !important;
+  }
+}
+
+.return-button {
+  width: 6rem !important;
+  border-radius: 2rem !important;
+  padding: 1rem 1.5rem 1rem 1rem !important;
+  font-size: 1rem !important;
+  background-color: #505050 !important;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5) !important;
+
+  &:hover {
+    background-color: #383838 !important;
+  }
+}
